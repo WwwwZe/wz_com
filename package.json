@@ -1,0 +1,59 @@
+{
+  "name": "wz_com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build:prod": "cross-env NODE_ENV=production rollup -c",
+    "build:dev": "cross-env NODE_ENV=development rollup -c",
+    "plop": "plop",
+    "publish": "lerna publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-json": "4.1.0",
+    "@rollup/plugin-node-resolve": "8.4.0",
+    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-essentials": "^6.5.14",
+    "@storybook/addon-interactions": "^6.5.14",
+    "@storybook/addon-links": "^6.5.14",
+    "@storybook/builder-webpack4": "^6.5.14",
+    "@storybook/manager-webpack4": "^6.5.14",
+    "@storybook/testing-library": "0.0.13",
+    "@storybook/vue": "^6.5.14",
+    "@vue/test-utils": "1.0.3",
+    "babel-jest": "26.2.2",
+    "babel-loader": "^8.3.0",
+    "cross-env": "^7.0.3",
+    "cssnano": "3",
+    "jest": "26.2.2",
+    "lerna": "6.1.0",
+    "less": "3.11.0",
+    "less-loader": "6.0.0",
+    "node-sass": "4.12.0",
+    "plop": "2.7.6",
+    "rimraf": "^3.0.2",
+    "rollup": "2.23.1",
+    "rollup-plugin-postcss": "3.1.4",
+    "rollup-plugin-terser": "6.1.0",
+    "rollup-plugin-vue": "5.1.9",
+    "sass-loader": "8.0.2",
+    "vue-jest": "3.0.6",
+    "vue-loader": "^15.10.1",
+    "vue-template-compiler": "2.6.11"
+  },
+  "dependencies": {
+    "vue": "2.6.11"
+  }
+}

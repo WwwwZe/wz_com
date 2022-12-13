@@ -1,0 +1,9 @@
+import { mount } from '@vue/test-utils'
+import {{properCase name}} from '../src/{{name}}.vue'
+
+describe('Wz-{{properCase name}}', () => {
+  test('Wz-{{properCase name}}', () => {
+    const wrapper = mount({{properCase name}})
+    expect(wrapper.html()).toContain('{{name}}')
+  })
+})
