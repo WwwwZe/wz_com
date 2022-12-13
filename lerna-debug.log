@@ -1,0 +1,4 @@
+38 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
+38 error fatal: unable to access 'https://github.com/WwwwZe/wz_com.git/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream
+38 error     at makeError (/Users/wangze/wz/test/wz_com/node_modules/execa/lib/error.js:60:11)
+38 error     at handlePromise (/Users/wangze/wz/test/wz_com/node_modules/execa/index.js:118:26)

@@ -14,7 +14,7 @@
     "build:prod": "cross-env NODE_ENV=production rollup -c",
     "build:dev": "cross-env NODE_ENV=development rollup -c",
     "plop": "plop",
-    "publish": "lerna publish"
+    "lerna": "lerna publish"
   },
   "keywords": [],
   "author": "",
