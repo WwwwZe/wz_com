@@ -1,4 +1,8 @@
-38 error Error: Command failed with exit code 128: git push --follow-tags --no-verify --atomic origin main
-38 error fatal: unable to access 'https://github.com/WwwwZe/wz_com.git/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream
-38 error     at makeError (/Users/wangze/wz/test/wz_com/node_modules/execa/lib/error.js:60:11)
-38 error     at handlePromise (/Users/wangze/wz/test/wz_com/node_modules/execa/index.js:118:26)
+17 error Error: Command failed with exit code 1: git remote update
+17 error fatal: unable to access 'https://github.com/WwwwZe/wz_com.git/': Failed to connect to github.com port 443 after 75017 ms: Operation timed out
+17 error     at makeError (/Users/wangze/wz/test/wz_com/node_modules/execa/lib/error.js:60:11)
+17 error     at Function.module.exports.sync (/Users/wangze/wz/test/wz_com/node_modules/execa/index.js:194:17)
+17 error     at Object.execSync (/Users/wangze/wz/test/wz_com/node_modules/@lerna/child-process/index.js:39:16)
+17 error     at updateRemote (/Users/wangze/wz/test/wz_com/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
+17 error     at isBehindUpstream (/Users/wangze/wz/test/wz_com/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
+17 error     at VersionCommand.initialize (/Users/wangze/wz/test/wz_com/node_modules/@lerna/version/index.js:156:9)
