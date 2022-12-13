@@ -9,7 +9,7 @@
     "build": "rollup -c",
     "del": "rimraf dist"
   },
-  "keywords": [],
+  "keywords": ["textarea"],
   "author": "",
   "license": "MIT",
   "dependencies": {
